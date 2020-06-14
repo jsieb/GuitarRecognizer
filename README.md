@@ -10,6 +10,6 @@ Transfer learning was used to expand upon a pretrained MobileNet SSD model.
 # Data
 Images of guitars were scraped from an image search engine result.
 
-# Running the model
-> python3 
+# Running the model on the Raspberry Pi
+> python3 openvino_real_time_guitar_detection.py -- model MobileNetSSD_deploy.caffemodel -- prototxt MobileNetSSD_deploy.prototxt -- modeltransfer guitar_case.model
 
