@@ -7,6 +7,11 @@ The backbone of this project utilizes much of the code from this Mask Detection 
 # Model
 Transfer learning was used to expand upon a pretrained MobileNet SSD model.
 
+# Device & Software Details
+ - Rasberry Pi 4 
+ - Intel Movidius NC2
+ - Intel's OpenVINO 4.2.0 (https://software.intel.com/content/www/us/en/develop/tools/openvino-toolkit/choose-download/linux.html)
+
 # Data
 Images of guitars were scraped from an image search engine result.
 
